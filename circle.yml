@@ -19,7 +19,7 @@ dependencies:
     - ~/.cache/yarn
 test:
   override:
-    - ng test --watch=false
+    - ng run test:without-watch
 
 
 
